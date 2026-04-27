@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="Utf-8"?>
-<recetario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="recetas.xsd">
+<recetas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="recetas.xsd">
     <receta codigo="R01">
         <nombre>Croquetas de la abuela</nombre>
         <categoria>Entrante</categoria>
@@ -18,4 +18,4 @@
         <tiempo>60</tiempo>
         <dificultad>Alta</dificultad>
     </receta>
-</recetario>
+</recetas>
