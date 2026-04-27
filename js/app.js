@@ -1,7 +1,7 @@
-const cuerpoTabla = document.getElementById('cuerpo_tabla');
+const cuerpoTabla = document.getElementById('cuerpo-tabla');
 async function cargarRecetas(){
     try {
-        const respuesta = await fetch('recetas.xml')
+        const respuesta = await fetch('./datos/recetas.xml')
         const textoXml = await respuesta.text();
         const parser = new DOMParser();
         const xmlDOC = parser.parseFromString(textoXml, 'application/xml');
