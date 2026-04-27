@@ -2,10 +2,16 @@
     <xs:element name="recetas">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="nombre" type="xs:string"/>
-                <xs:element name="categoria" type="xs:string"/>
-                <xs:element name="tiempo" type="xs:integer"/>
-                <xs:element name="dificultad" type="xs:string"/>
+                <xs:element name="receta" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="categoria" type="xs:string"/>
+                            <xs:element name="tiempo" type="xs:integer"/>
+                            <xs:element name="dificultad" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
