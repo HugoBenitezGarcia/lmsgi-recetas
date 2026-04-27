@@ -3,4 +3,4 @@ Herramientas utilizadas para crear y validar el XSD.
 Evidencia de que el XML valida correctamente contra el XSD (captura).
 - ./captura/captura.png
 Para qué sirve DOMParser y en qué se diferencia a trabajar con JSON.
--
+- DOMParser convierte XML en nodos y JSON se vuelve objeto directamente.
