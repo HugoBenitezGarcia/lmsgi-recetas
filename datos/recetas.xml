@@ -12,4 +12,10 @@
         <tiempo>20</tiempo>
         <dificultad>Baja</dificultad>
     </receta>
+    <receta codigo="R03">
+        <nombre>Tarta de queso</nombre>
+        <categoria>Postre</categoria>
+        <tiempo>60</tiempo>
+        <dificultad>Alta</dificultad>
+    </receta>
 </recetario>
