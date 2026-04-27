@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Recetario LMSGI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Lista de Recetas</h1>
+
+<main class="container">
+    <header>
+        <h1>Lista de Recetas</h1>
+    </header>
+
     <table>
         <thead>
-            <tr>
-                <th>Codigo</th>
-                <th>Nombre</th>
-                <th>Categoria</th>
-                <th>Tiempo</th>
-                <th>Dificultad</th>
-            </tr>
+        <tr>
+            <th>Código</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Tiempo</th>
+            <th>Dificultad</th>
+        </tr>
         </thead>
-        <tbody id="cuerpo_tabla"></tbody>
+        <tbody id="cuerpo_tabla">
+        </tbody>
     </table>
-    <script src="./js/app.js"></script>
+</main>
+
+<script src="./js/app.js"></script>
 </body>
 </html>
