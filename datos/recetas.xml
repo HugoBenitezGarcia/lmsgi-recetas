@@ -6,5 +6,10 @@
         <tiempo>45</tiempo>
         <dificultad>Media</dificultad>
     </receta>
-    
+    <receta codigo="R02">
+        <nombre>Macarrones con tomate</nombre>
+        <categoria>Principal</categoria>
+        <tiempo>20</tiempo>
+        <dificultad>Baja</dificultad>
+    </receta>
 </recetario>
